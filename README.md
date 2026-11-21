@@ -1,4 +1,3 @@
-Warning: fs was declared with const; use let for reassignable variables.
 # Marquina.dev
 
 Portafolio personal de Sebastian Marquina, estudiante de Ingeniería de Software con Inteligencia Artificial en SENATI. Presenta proyectos académicos de desarrollo web, visión por computadora y preparación de datos.
@@ -10,15 +9,9 @@ npm install
 npm start
 ```
 
-## Publicar en GitHub Pages
+## Publicación
 
-El proyecto incluye un flujo de GitHub Actions en `.github/workflows/pages.yml`. Después de crear un repositorio y subir el contenido de esta carpeta a la rama `main`:
-
-1. Abre **Settings → Pages** en el repositorio.
-2. En **Build and deployment**, selecciona **GitHub Actions** como origen.
-3. Revisa la pestaña **Actions**. Al completarse el flujo, GitHub mostrará la dirección pública del sitio.
-
-El flujo detecta automáticamente si se trata de un sitio de usuario (`usuario.github.io`) o de un sitio de proyecto (`usuario.github.io/nombre-del-repositorio`) y ajusta la ruta de los recursos.
+El sitio se publica en [seblas28.github.io](https://seblas28.github.io/) mediante GitHub Actions. Cada actualización de la rama `main` ejecuta `.github/workflows/pages.yml`, compila la aplicación React y publica el resultado en GitHub Pages.
 
 ## Contenido
 
