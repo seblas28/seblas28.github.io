@@ -128,6 +128,7 @@ export default function Home() {
           </p>
           <div className="hero-actions">
             <a className="button button-primary" href="#proyectos">Explorar proyectos <span aria-hidden="true">↓</span></a>
+            <a className="button button-secondary" href="https://drive.google.com/file/d/1YFEsYUvNHuvM3R8d6O21Nc3Yygb77foi/view?usp=sharing" target="_blank" rel="noreferrer">Ver CV (PDF) <span aria-hidden="true">↗</span></a>
             <a className="button button-secondary" href="mailto:seblas38@hotmail.com">Escríbeme <span aria-hidden="true">↗</span></a>
           </div>
           <div className="hero-meta" aria-label="Formación y áreas de interés">
